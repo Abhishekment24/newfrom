@@ -10,7 +10,7 @@ This project is an evaluation of an application for a position as a software eng
 ## Register , Login
 The registration process includes validation user data and save data in local storage
 
-![This is an image](img/signin.png)
+![This is an image](img/Register.png)
 
 
 The login process includes validation user data and comparing user data with data saved in the local storage
