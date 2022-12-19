@@ -1,3 +1,50 @@
+# assessment Club Wealth
+
+This project is an evaluation of an application for a position as a software engineer in Club Wealth
+
+
+* Done by HTML & CSS & bootstarp 5 & JavaScript & Local Storage & Doom & react & joi 
+* I used local storage to stor the users data instead of database
+
+
+## Register , Login
+The registration process includes validation user data and save data in local storage
+
+![This is an image](img/signin.png)
+
+
+The login process includes validation user data and comparing user data with data saved in the local storage
+
+![This is an image](img/login.png)
+
+
+## Covid chapter :
+The main page contains Corona virus data in all countries of the world, and it includes the process of searching for the country using its identification code
+
+![This is an image](img/covid.png)
+
+
+## Cats chapter :
+A page for those who like to follow pictures of cats and see the most beautiful moments with them, with the ability to like the picture you like
+
+![This is an image](img/cats.png)
+
+
+## Star Wars chapter :
+This is the most important part of the project, and it includes comprehensive and complete information about the Star Wars series of films and series. You can search through the data and extract satisfactory results. Characters can be identified by their descriptions, spacecraft, planets, etc.
+
+![This is an image](img/films.png)
+
+
+![This is an image](img/people.png)
+
+
+![This is an image](img/Species.png)
+
+
+I wish you a pleasant and happy browsing
+Thank you ...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

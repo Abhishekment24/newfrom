@@ -17,7 +17,7 @@ export default function Starwars() {
   }
 
   async function pageNum() {
-    if(pagination === 1){
+    if (pagination === 1) {
       let num = pagination + 1
       let { data } = await axios.get(`https://swapi.dev/api/people/?page=${num}`);
       setTpeople(data.results);
@@ -32,7 +32,7 @@ export default function Starwars() {
 
   useEffect(() => {
     getStarWars();
-  },[])
+  }, [])
 
   function searchByName(e) {
     let term = e.target.value;
@@ -52,12 +52,7 @@ export default function Starwars() {
   return (
     <>
 
-      <nav aria-label="Page navigation example">
-        <ul className="pagination">
-          <li className="page-item"><Link className="page-link" onClick={pageNum2} >Previous</Link></li>
-          <li className="page-item"><Link className="page-link" onClick={pageNum}>Next</Link></li>
-        </ul>
-      </nav>
+
 
       <div className="row py-5 d-flex justify-content-center">
 
@@ -128,12 +123,16 @@ export default function Starwars() {
 
         )}
 
+        <div className='col-md-8 d-flex justify-content-center align-items-center'>
+          <nav aria-label="Page navigation example">
+            <ul className="pagination">
+              <li className="page-item"><Link className="page-link" onClick={pageNum2} >Previous</Link></li>
+              <li className="page-item"><Link className="page-link" onClick={pageNum}>Next</Link></li>
+            </ul>
+          </nav>
+        </div>
+
       </div>
-
-
-
-
-
 
     </>
   )

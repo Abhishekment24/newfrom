@@ -36,7 +36,7 @@ function App() {
     if (localStorage.getItem('userEmail')) {
       saveUserData();
     }
-  }, [])
+  },[])
 
 
   function ProtectedRoute(props) {

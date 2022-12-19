@@ -9,10 +9,6 @@ export default function Register() {
 
     const [errorList, setErrorList] = useState([]); // to any error in user data in register opration
 
-    //   const [isloading, setIsloading] = useState(false); // to loading opration by default false
-
-    //   const [error, setError] = useState(""); // set error variable to fail registration
-
     let navigate = useNavigate(); // create variable to useNavigate because using after soon
 
     const [user, setUser] = useState({
